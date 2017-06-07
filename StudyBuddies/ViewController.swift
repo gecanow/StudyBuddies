@@ -20,6 +20,10 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func onTappedJoin(_ sender: Any) {
+        print("trying to segue")
+        self.performSegue(withIdentifier: "FirstSegue", sender: nil)
+    }
 
 }
 

@@ -14,6 +14,11 @@
 		8827405D1EB507D6008907CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8827405B1EB507D6008907CD /* LaunchScreen.storyboard */; };
 		882740681EB507D7008907CD /* StudyBuddiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882740671EB507D7008907CD /* StudyBuddiesTests.swift */; };
 		882740731EB507D7008907CD /* StudyBuddiesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882740721EB507D7008907CD /* StudyBuddiesUITests.swift */; };
+		882740891EB5126C008907CD /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882740881EB5126C008907CD /* Question.swift */; };
+		8827408B1EB513BB008907CD /* StudyBuddyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8827408A1EB513BB008907CD /* StudyBuddyViewController.swift */; };
+		88D902FA1EE78AAE00B2A15E /* SchoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D902F91EE78AAE00B2A15E /* SchoolViewController.swift */; };
+		88D902FC1EE78C8400B2A15E /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D902FB1EE78C8400B2A15E /* Student.swift */; };
+		88ED9A271EE8596500ED81A9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 88ED9A261EE8596500ED81A9 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +38,19 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		882740831EB509CB008907CD /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		8827404F1EB507D6008907CD /* StudyBuddies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudyBuddies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		882740521EB507D6008907CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +65,11 @@
 		8827406E1EB507D7008907CD /* StudyBuddiesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudyBuddiesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		882740721EB507D7008907CD /* StudyBuddiesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyBuddiesUITests.swift; sourceTree = "<group>"; };
 		882740741EB507D7008907CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		882740881EB5126C008907CD /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		8827408A1EB513BB008907CD /* StudyBuddyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudyBuddyViewController.swift; sourceTree = "<group>"; };
+		88D902F91EE78AAE00B2A15E /* SchoolViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolViewController.swift; sourceTree = "<group>"; };
+		88D902FB1EE78C8400B2A15E /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		88ED9A261EE8596500ED81A9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +122,14 @@
 			children = (
 				882740521EB507D6008907CD /* AppDelegate.swift */,
 				882740541EB507D6008907CD /* ViewController.swift */,
+				8827408A1EB513BB008907CD /* StudyBuddyViewController.swift */,
 				882740561EB507D6008907CD /* Main.storyboard */,
+				88D902FB1EE78C8400B2A15E /* Student.swift */,
+				88D902F91EE78AAE00B2A15E /* SchoolViewController.swift */,
+				882740881EB5126C008907CD /* Question.swift */,
 				882740591EB507D6008907CD /* Assets.xcassets */,
 				8827405B1EB507D6008907CD /* LaunchScreen.storyboard */,
+				88ED9A261EE8596500ED81A9 /* GoogleService-Info.plist */,
 				8827405E1EB507D6008907CD /* Info.plist */,
 			);
 			path = StudyBuddies;
@@ -135,6 +163,7 @@
 				8827404B1EB507D5008907CD /* Sources */,
 				8827404C1EB507D5008907CD /* Frameworks */,
 				8827404D1EB507D5008907CD /* Resources */,
+				882740831EB509CB008907CD /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -236,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8827405D1EB507D6008907CD /* LaunchScreen.storyboard in Resources */,
+				88ED9A271EE8596500ED81A9 /* GoogleService-Info.plist in Resources */,
 				8827405A1EB507D6008907CD /* Assets.xcassets in Resources */,
 				882740581EB507D6008907CD /* Main.storyboard in Resources */,
 			);
@@ -262,6 +292,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				882740891EB5126C008907CD /* Question.swift in Sources */,
+				88D902FC1EE78C8400B2A15E /* Student.swift in Sources */,
+				8827408B1EB513BB008907CD /* StudyBuddyViewController.swift in Sources */,
+				88D902FA1EE78AAE00B2A15E /* SchoolViewController.swift in Sources */,
 				882740551EB507D6008907CD /* ViewController.swift in Sources */,
 				882740531EB507D6008907CD /* AppDelegate.swift in Sources */,
 			);
@@ -416,8 +450,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = K4Z76LM5AD;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"/Users/marcifirfer/Downloads/realm-swift-2.6.2/ios/swift-3.0.2/RealmSwift.framework",
+				);
 				INFOPLIST_FILE = StudyBuddies/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.EcaKnowGames.StudyBuddies;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -429,8 +469,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = K4Z76LM5AD;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"/Users/marcifirfer/Downloads/realm-swift-2.6.2/ios/swift-3.0.2/RealmSwift.framework",
+				);
 				INFOPLIST_FILE = StudyBuddies/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.EcaKnowGames.StudyBuddies;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -514,6 +560,7 @@
 				882740791EB507D7008907CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8827407A1EB507D7008907CD /* Build configuration list for PBXNativeTarget "StudyBuddiesTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +569,7 @@
 				8827407C1EB507D7008907CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8827407D1EB507D7008907CD /* Build configuration list for PBXNativeTarget "StudyBuddiesUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +578,7 @@
 				8827407F1EB507D7008907CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
